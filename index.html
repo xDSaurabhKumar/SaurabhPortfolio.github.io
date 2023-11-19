@@ -375,12 +375,19 @@
 		<!-- custom -->
 		<script src="js/custom.js"></script>
 		<!-- Loader Script -->
+<!-- Loader Script -->
 <script>
     // Show loader initially
-	$(document).ready(function () {
-        $('#loader-container').addClass('hide');
+    $(document).ready(function () {
+        // Your existing script code
+
+        // Hide loader after 3 seconds
+        setTimeout(function () {
+            $('#loader-container').addClass('hide');
+        }, 3000);
     });
 </script>
+
 
 	</body>
 </html>
